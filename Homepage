@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #fbfbfb;
+      color: #fff;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 0px;
+    }
+
+    /* Main Banner */
+    .main-banner {
+      height: 280px;
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* Columns */
+    .columns {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    
+
+    .column-1 {
+      background-color: #e6e6e6; /* Light gray background color */
+      width: 70%;
+     height: 370px;
+    }
+
+    a{
+        color: #000000;
+        text-decoration: none;
+        padding-left: 50px;
+    }
+
+    .column-2 {
+      background-color: #ffffff; /* Lighter gray background color */
+      width: 30%;
+      
+      
+    }
+
+
+footer{
+    border-radius: 0px;
+    background-color: #AE445A;
+    margin: 0px;
+   
+    padding: 10px;
+    text-align:center;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>
+      
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Banner -->
+  <div class="main-banner">
+    <h2>Selamat Datang di Website Kami!</h2>
+  </div>
+
+  <!-- Columns -->
+  <div class="columns">
+    <!-- Column 1 -->
+    <div class="column column-1">
+      <h4><a href="#" class="register-link">Artikel</a></h4>
+      <h4><a href="#" class="register-link">Bantuan</a></h4>
+      <h4><a href="#" class="register-link">Kuesioner</a></h4>
+      <h4><a href="#" class="register-link">Login</a></h4>
+      <h4><a href="#" class="register-link">Register</a></h4>
+    </div>
+    
+    <!-- Column 2 -->
+    <div class="column column-2">
+        <img src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/x6yzeHlItU.jpg" width="100%" height="120px">
+      <h6>Pada hari yang cerah ini, 
+        mentari bersinar dengan gemilang menyinari langit biru. Angin sepoi - sepoi berbisik 
+        di antara pepohonan yang bergoyang lembut. Suasana damai dan segar memeluk kawasan pedesaan ini, 
+        membawa aroma harum bunga - bunga liar yang bertebaran di sepanjang jalan setapak. Burung - burung bernyanyi riang, 
+        menyusun simfoni alam yang menggetarkan hati. Di tengah - tengah keindahan ini, kehidupan seakan terhenti sejenak untuk menikmati
+         keajaiban alam yang terpampang indah di depan mata</h6>
+
+         <h6>Dalam peradaban yang terus berkembang, teknologi menjadi bagian integral dari kehidupan sehari-hari.
+             Dengan sentuhan ujung jari, kita dapat terhubung dengan orang-orang di seluruh penjuru dunia.
+              Komputer, smartphone, dan perangkat pintar lainnya membentuk jaringan digital yangb menghubungkan ide, informasi, dan kreativitas.
+               Meski demikian, di balik kemajuan teknologi, tetaplah penting untuk merayakan keindahan alam dan menghargai momen-momen sederhana yang disuguhkan oleh kehidupan sehari-hari. 
+               Dengan keseimbangan antara alam dan dunia digital, kita dapat menciptakan harmoni yang membawa kedamaian bagi jiwa yang haus akan kedamaian</h6>
+    </div>
+  </div>
+
+  <!-- Content goes here -->
+  <footer class="footer">
+    <p>@copyright Muhammad Hafi Ilham</p>
+</footer>
+</body>
+</html>

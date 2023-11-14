@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #f8f7f7;
+      color: #fff;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #060101;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    /* Main Banner */
+    .main-banner {
+      height: 300px;
+      background-color: rgb(47, 0, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* Columns */
+    .columns {
+      display: flex;
+      height: 20%;
+      ;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .column-1 {
+      background-color: #e6e6e6; /* Light gray background color */
+      width: 30%;
+      right: 10%;
+      
+    }
+
+    .column-2 {
+      background-color: #f2f2f2; /* Lighter gray background color */
+      width: 110%;
+      margin-left: 40px;
+      position: relative;
+      right: 20%;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      height: 70%;
+      background-color: #ccc; /* Light gray background color for the sidebar */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div>
+     
+    </div>
+    <nav>
+      <a href="#">beranda</a>
+      <a href="#">layanan</a>
+      <a href="#">tentang</a>
+      <a href="#">kontak</a>
+    </nav>
+  </header>
+
+  <!-- Main Banner -->
+  <div class="main-banner">
+    <h2>Selamat Datang di portal pendaftaran</h2>
+  </div>
+
+  <!-- Columns -->
+  <div class="columns">
+    <!-- Column 1 -->
+    <div class="column column-1">
+      <div class="sidebar">
+        <center>
+            <a href="#"><h2>Artikel</h2></a>
+            <a href="#"><h2>Bantuan</h2></a>
+            <a href="#"><h2>Kuesioner</h2></a>
+            <a href="#"><h2>Login</h2></a>
+            <a href="#"><h2>Register</h2></a>
+    </center>
+      </div>
+      <h3>Column 1 Content</h3>
+      <p>This is the content of column 1.</p>
+    </div>
+    
+    <!-- Column 2 -->
+    <div class="column column-2">
+        <!-- Registration Form -->
+<div style="margin: 20px;">
+    <form action="#" method="post">
+      <!-- Row 1: First Name, Last Name, Email -->
+      <div style="margin-bottom: 15px;">
+        <label for="first-name">Nama Depan:</label>
+        <input type="text" id="first-name" name="first-name" required>
+  
+        <label for="last-name" style="margin-left: 20px;">Nama Belakang:</label>
+        <input type="text" id="last-name" name="last-name" required>
+  
+        <label for="email" style="margin-left: 20px;">Alamat Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+  
+      <!-- Row 2: Username -->
+      <div style="margin-bottom: 15px;">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+  
+      <!-- Row 3: Password and Confirm Password -->
+      <div style="margin-bottom: 15px;">
+        <label for="password">Kata Sandi:</label>
+        <input type="password" id="password" name="password" required>
+  
+        <label for="confirm-password" style="margin-left: 20px;">Konfirmasi Kata Sandi:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+  
+      <!-- Row 4: Submit and Reset Buttons -->
+      <div>
+        <input type="reset" value="Reset Form" style="margin-right: 10px;">
+        <input type="submit" value="Submit Form">
+      </div>
+    </form>
+  </div>
+  
+      
+ 
+
+  <!-- Content goes here -->
+  <footer style="background-color: rgb(53, 3, 3); padding: 10px; color: white; text-align: center;">
+    © 2023 muhammad hafi ilham
+
+  </footer>
+
+</body>
+</html>
